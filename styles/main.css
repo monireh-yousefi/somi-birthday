@@ -1,0 +1,39 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: #f4f4f4;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 100px;
+}
+
+#tiles {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  position: relative;
+  background-color: white;
+  padding: 8px;
+  border-radius: 0.5rem;
+}
+
+.selected {
+  background-color: #ededed;
+  border: none;
+  color: white;
+}
+
+.btn {
+  font-size: 24px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 0;
+  border-width: 0;
+  color: rgba(0, 0, 0, 0);
+
+  background-size: 300px 300px;
+}
